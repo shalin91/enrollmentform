@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&family=Blaka+Hollow&family=Charis+SIL:wght@700&family=Gloria+Hallelujah&family=Kanit:ital@1&family=Libre+Bodoni:wght@500&family=Merriweather:ital@1&family=Odibee+Sans&family=Oleo+Script+Swash+Caps:wght@700&family=Press+Start+2P&family=Spline+Sans:wght@300&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <center>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="fname" id="fname"></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lname" id="lname"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td><input type="text" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td><input type="text" name="phone" id="phone"></td>
+                </tr>
+                <tr>
+                    <th>Hobby</th>
+                    <td><input type="text" name="hobby" id="hobby"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="addbtn">
+            <input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+        </div>
+        <table border="4"  id="show">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+					<th>Age</th>
+                    <th>phone</th>
+                    <th>Hobby</th>
+				</tr>
+			</thead>
+		</table>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

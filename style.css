@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+body{
+    color: aliceblue;
+    align-items: center;
+    background: linear-gradient(200deg,#05073a,#dc0606ca);
+    justify-content: center;
+    height: 100vh;
+}
+table{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+#show th, #show td{
+    padding: 13px;
+}
+
+.addbtn input{
+    width: 100px;
+    height: 25px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.addbtn input:hover{
+    background: rgb(2, 2, 2);
+    color: #fff;
+}
